@@ -4,6 +4,7 @@ export const FLAT_REGION = process.env.FLAT_REGION;
 export const SERVER_DOMAINS = process.env.FLAT_SERVER_DOMAINS as unknown as Record<string, string>;
 
 export const CURRENT_SERVER_DOMAIN = process.env.FLAT_SERVER_DOMAIN;
+export const FLAT_AGREEMENT_URL = process.env.FLAT_AGREEMENT_URL;
 
 export const COOKIE_DOMAIN = CURRENT_SERVER_DOMAIN
     ? CURRENT_SERVER_DOMAIN.slice(CURRENT_SERVER_DOMAIN.indexOf(".") + 1)
@@ -72,3 +73,15 @@ export enum FileConvertStep {
     Done = "Done",
     Failed = "Failed",
 }
+
+export type AIRole = "lily" | "peppa" | "spongebob" | "sillybear" | "ironman" | "LuoTianYi";
+
+export type AIScene =
+    | "TakingOrders"
+    | "Shopping"
+    | "HotelBooking"
+    | "SelfIntroduction"
+    | "Interview"
+    | "ChatWithFriends"
+    | "";
+export type AILanguage = "zh" | "en";

@@ -7,10 +7,10 @@
     "start": "cross-env vite",
     "start:cn": "cross-env FLAT_REGION=CN pnpm start",
     "start:sg": "cross-env FLAT_REGION=SG pnpm start",
-    "build": "cross-env NODE_OPTIONS=\"--max-old-space-size=8192\" vite build",
+    "build": "cross-env NODE_OPTIONS=\"--max-old-space-size=81920\" vite build",
     "build:cn": "cross-env FLAT_REGION=CN pnpm build",
     "build:sg": "cross-env FLAT_REGION=SG pnpm build",
-    "build:analyzer": "cross-env ANALYZER=true NODE_OPTIONS=\"--max-old-space-size=6144\" vite build"
+    "build:analyzer": "cross-env ANALYZER=true NODE_OPTIONS=\"--max-old-space-size=61440\" vite build"
   },
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
@@ -29,6 +29,7 @@
     "@netless/flat-service-provider-agora-cloud-recording": "workspace:*",
     "@netless/flat-service-provider-agora-rtc-electron": "workspace:*",
     "@netless/flat-service-provider-agora-rtm": "workspace:*",
+    "@netless/flat-service-provider-agora-rtm2": "workspace:*",
     "@netless/flat-service-provider-fastboard": "workspace:*",
     "@netless/flat-service-provider-file-convert-h5": "workspace:*",
     "@netless/flat-service-provider-file-convert-netless": "workspace:*",

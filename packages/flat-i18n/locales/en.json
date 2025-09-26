@@ -86,7 +86,56 @@
   "home-page-hero-button-type": {
     "begin": "Begin",
     "join": "Join",
-    "schedule": "Schedule"
+    "schedule": "Schedule",
+    "aiTeacher": "AI Teacher"
+  },
+  "home-page-AI-teacher-modal": {
+    "title": "Mode",
+    "role": "Role",
+    "scene": "Scene",
+    "language": "Language",
+    "button": {
+      "jump": "Jump",
+      "confirm": "Start now"
+    },
+    "rate": {
+      "title": "If it's easy for flat to call you, give it a rating",
+      "submit": "OK"
+    }
+  },
+  "home-page-AI-teacher-scenes": {
+    "role": {
+      "lily": "Lily(oral teacher)",
+      "peppaPig": "Peppa Pig",
+      "spongeBob": "SpongeBob",
+      "sillyBear": "Silly Bear",
+      "ironMan": "Iron Man",
+      "luoTianYi": "Luo Tian Yi"
+    },
+    "scene": {
+      "takingOrders": "Taking Orders",
+      "shopping": "Shopping",
+      "hotelBooking": "Hotel Booking",
+      "selfIntroduction": "Self-introduction",
+      "interview": "Interview",
+      "chatWithFriends": "Chat With Friends"
+    },
+    "language": {
+      "zh": "Chinese",
+      "en": "English"
+    }
+  },
+  "home-page-AI-teacher-class":{
+    "icon": {
+      "TurnOnWhiteboard": "Open the whiteboard",
+      "TurnOffWhiteboard": "Close the whiteboard"
+    },
+    "guidance": {
+      "TurnOffWhiteboard": "Click again to close the whiteboard"
+    },
+    "message": {
+      "10001": "AI conversation demand is too hot, please try again later"
+    }
   },
   "room-status": {
     "upcoming": "Upcoming",
@@ -488,6 +537,7 @@
   "user-guide-button": "Check it out now",
   "start-recording": "Start recording",
   "stop-recording": "Stop recording",
+  "recording-end": "Recording ended",
   "recording": "Recording",
   "open-in-browser": "Open in Browser",
   "room-started": "Started: ",
@@ -765,5 +815,16 @@
   "drop-to-board": "Drop file to whiteboard",
   "mirror": "Mirror",
   "mirror-mode": "Mirror Mode",
-  "edit-success": "Updated successfully"
+  "edit-success": "Updated successfully",
+  "cross-region-auth": {
+    "title":"Cross-border data exit authorization",
+    "desc":"Please note that you are joining a room created by Agora Flat Overseas users. We will strictly comply with applicable laws and regulations to conduct data exit security assessment, and adopt reasonable physical isolation and security protection measures to ensure that your data is only used under your authorization. See the {{serviceAgreement}} and {{privacyPolicy}} for details",
+    "serviceAgreement": "service agreement",
+    "privacyPolicy": "Privacy Policy",
+    "agree": "agree",
+    "disagree": "disagree"
+  },
+  "collect-media-options": "Audio and video data acquisition",
+  "collect-media-turn-on": "Turn on",
+  "collect-media-turn-off": "Turn off"
 }

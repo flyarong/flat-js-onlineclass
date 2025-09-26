@@ -2,6 +2,7 @@ module.exports = {
     version: "0.1",
     language: "en",
     words: [
+        "apprtc",
         "cspell",
         "vite",
         "vitejs",
@@ -182,6 +183,21 @@ module.exports = {
 
         // esbuild config
         "metafile",
+
+        // ai teacher
+        "SVGAI",
+        "peppa",
+        "Peppa",
+        "Tian",
+        "RTCAI",
+        "Secens",
+        "haimianbaby",
+        "ironman",
+        "luotianxiaoyi",
+        "spongebob",
+        "sillybear",
+        "Tasker",
+        "Secen",
     ],
     flagWords: ["fuck", "bitch", "asshole", "bullshit", "crap", "suck", "wtf"],
     dictionaries: [

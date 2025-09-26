@@ -86,7 +86,56 @@
   "home-page-hero-button-type": {
     "join": "加入房间",
     "begin": "快速开始",
-    "schedule": "预定房间"
+    "schedule": "预定房间",
+    "aiTeacher": "AI 口语老师"
+  },
+  "home-page-AI-teacher-modal": {
+    "title": "选择练习模式",
+    "role":"选择角色",
+    "scene": "选择场景",
+    "language": "选择练写的语种",
+    "button": {
+      "jump": "跳过",
+      "confirm": "立即开始"
+    },
+    "rate": {
+      "title": "如果flat给你打来便捷，就给个评分吧",
+      "submit": "确定"
+    }
+  },
+  "home-page-AI-teacher-scenes": {
+    "role": {
+      "lily": "Lily(开朗口语老师)",
+      "peppaPig": "小猪佩奇",
+      "spongeBob": "海绵宝宝",
+      "sillyBear": "憨憨熊大",
+      "ironMan": "钢铁飞侠",
+      "luoTianYi": "洛天小依"
+    },
+    "scene": {
+      "takingOrders": "餐厅点餐",
+      "shopping": "超市购物",
+      "hotelBooking": "预定酒店",
+      "selfIntroduction": "自我介绍",
+      "interview": "面试问答",
+      "chatWithFriends": "朋友聊天"
+    },
+    "language": {
+      "zh": "中文",
+      "en": "英文"
+    }
+  },
+  "home-page-AI-teacher-class":{
+    "icon": {
+      "TurnOnWhiteboard": "打开白板",
+      "TurnOffWhiteboard": "关闭白板"
+    },
+    "guidance": {
+      "TurnOffWhiteboard": "再次点击可以关闭白板"
+    },
+    "message": {
+      "10001": "AI对话需求过于火热，请稍后再试"
+    }
   },
   "class-room-type": {
     "BigClass": "大班课",
@@ -488,6 +537,7 @@
   "user-guide-button": "立即查看",
   "start-recording": "开始录制",
   "stop-recording": "停止录制",
+  "recording-end": "录制已停止",
   "recording": "录制",
   "open-in-browser": "请在浏览器中打开",
   "room-started": "已上课：",
@@ -765,5 +815,16 @@
   "drop-to-board": "拖拽文件到白板",
   "mirror": "镜像",
   "mirror-mode": "镜像模式",
-  "edit-success": "修改成功"
+  "edit-success": "修改成功",
+  "cross-region-auth": {
+    "title":"跨境数据出镜授权",
+    "desc":"请注意，您正在加入 Agora Flat 海外版用户创建的房间。我们将严格遵守适用的法律法规要求进行数据出境安全评估，采用合理的物理隔离和安全防护措施，确保您的数据仅在您的授权许可下使用。具体内容参见{{serviceAgreement}}与{{privacyPolicy}}",
+    "serviceAgreement": "服务协议",
+    "privacyPolicy": "隐私政策",
+    "agree": "同意",
+    "disagree": "取消"
+  },
+  "collect-media-options": "音视频数据采集",
+  "collect-media-turn-on": "开启",
+  "collect-media-turn-off": "关闭"
 }
